@@ -28,16 +28,16 @@ class AgendaPage extends StatelessWidget {
           isScrollable: false,
           tabs: <Widget>[
             Tab(
-              child: Text("Cloud"),
+              child: Text("Mobile"),
               icon: Icon(
-                FontAwesomeIcons.cloud,
+                FontAwesomeIcons.mobile,
                 size: 12,
               ),
             ),
             Tab(
-              child: Text("Mobile"),
+              child: Text("Cloud"),
               icon: Icon(
-                FontAwesomeIcons.mobile,
+                FontAwesomeIcons.cloud,
                 size: 12,
               ),
             ),
